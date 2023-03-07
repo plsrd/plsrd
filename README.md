@@ -40,9 +40,15 @@
     <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" title="Github" **alt="Github" width="40" height="40"/>
     <img src="https://github.com/devicons/devicon/blob/master/icons/slack/slack-original.svg" title="Slack" alt="Slack" width="40" height="40"/>&nbsp;
   </div>
+  <br>
+  <img src="http://github-readme-streak-stats.herokuapp.com?user=rlpennell&theme=dark&background=000000" alt="GitHub Streak" />
+  <br>
+  <div>
+    <!-- BLOG-POST-LIST:START -->
+    <!-- BLOG-POST-LIST:END -->
+  </div>
 </div>
-<br>
-<br>
+
 <div align="center">
   <h2>Here are somethings I spend my time doing:</h2>
   <p>🏋️ lifting heavy things and trying to run fast</p>
