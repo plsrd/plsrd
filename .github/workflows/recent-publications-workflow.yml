@@ -1,0 +1,18 @@
+name: Latest blog post workflow
+on:
+  schedule:
+    # Runs every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-publications:
+    name: Update this repos README with my latest Sanity Exchange publications
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+    -run: npx @sanity/cli documents get *["e-fca35c8b2edc19f66675e200d2b376b8" in authors[]._ref]| order(_createdAt desc)[0] { _type, publishedAt, title,  'slug': slug.current, description, 'tags': solutions[]->.title }
+    working-directory: "/"
+    env: 
+      SANITY_STUDIO_API_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
+      SANITY_AUTH_TOKEN: ${{ secrets.SANITY_BACKUP_TOKEN }}
