@@ -25,8 +25,6 @@
   <p>📚 reading queer (or not) science fiction</p>
   <p>🎸 playing guitar and singing badly</p>
   <br>
-  <br>
-  <br>
   <p><strong>Ask me about my pets!</strong><p>
   <img src="https://media.giphy.com/media/jpPTyP6YghtiU/giphy.gif" />
 </div>
